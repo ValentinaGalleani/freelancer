@@ -1,3 +1,103 @@
-/*
- * Estilos de tu proyecto
- */
+
+ * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+.background1{
+	height: 108px; 
+	width: 100%;
+	background-color: #2C3E50; 
+
+}
+.background1 h1{
+	position: fixed;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	text-transform: uppercase;
+	position: fixed;
+	top: 10px;
+	left: 92px;
+	font-size: 31px;
+
+}
+
+.background2{
+	height: 600px;
+	width: 100%;
+	background-color: #18BC9C;
+	text-align: center;
+	color: white;
+}
+
+ul li a {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+ul li a:hover {
+	color: #18BC9C;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	
+}
+
+li{
+	font-size: 15px;
+	margin-left: 50px;
+	display: inline-block;
+	padding-left: 20px; 
+
+}
+
+.background2 .container div img {
+	padding-top: 6em;
+}
+.background2  h1 h3{
+	color: #FFF;
+
+}
+
+
+
+
+
+
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.container {
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.container:before, .container:after {
+	content: " ";
+	display: table;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container:after {
+	clear: both;
+}
