@@ -7,19 +7,23 @@
 	<title>START BOOTSTRAP</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0">
+
 	<link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
 <!-- Inicio del nav -->
 	<nav class="background1">
-		<div class="container">
+		<div class="container"><!-- clase container, utilizada para crear un margen en ambos costados de la página -->
 			<h1>start bootstrap</h1>
 			<ul>
 				<li><a href="portafolio">portafolio</a></li>
 				<li><a href="about">about</a></li>
 				<li><a href="contact">contact</a></li>
 			</ul>
+		</div>
 	</nav>
 <!-- Fin del nav -->
 
@@ -35,20 +39,118 @@
 </section>
 <!-- Fin sección 1 -->
 
-<!-- inicio seccion -->
-<section class="imagenes">
-	<div>
+<!-- inicio seccion 2-->
+<section class="container"> <!-- clase container, utilizada para crear un margen en ambos costados de la página -->
+	<div class="ilustraciones"><!-- elemento que contiene todas las imagenes --> 
+		<h3>Portafolio</h3>
+		<div>
+			<div>	
+				<div class="primeras-img" id="uno"></div>
+			</div>
+			<div>
+				<div class="primeras-img" id="dos"></div>
+			</div>
+			<div>
+				<div class="primeras-img" id="tres"></div>
+			</div>
+		</div>
+
+		<div>
+			<div>
+				<div class="segundas-img" id="cuatro"></div>
+			</div>
+			<div>
+				<div class="segundas-img" id="cinco"></div>
+			</div>
+			<div>
+				<div class="segundas-img" id="seis"></div>
+			</div>
+		</div>	
+	</div>
+</section>
+<!-- fin de seccion 2 -->
+
+<!-- inicio de seccion 3 -->
+<section>
+	<div class="background3">
+		<div class="container"><!-- clase container, utilizada para crear un margen en ambos costados de la página, -->
+		 	<h3 id="about">About</h3>
+		 	<div>
+				<table><!-- elemento para crear una tabla, en este caso, lo utilicé para crear dos columnas de párrafo -->
+					<tr>
+						<td class="primera-columna"> <!-- columna 1 -->
+							<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+						</td>
+						<td class="segunda-columna">
+						<!-- columna 2 -->
+							<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+						</td>	
+					</tr>
+				</table>
+			</div>
 		
+
+			<div>
+				<button class="btn-about text-white" id="download">
+					<i class="fa fa-download" aria-hidden="true"></i>
+					Download Theme
+				</button>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- fin de seccion 3 -->
+
+<!-- comienzo de seccion 4 -->
+<section>
+	<div class="contact-me">
+		<div class="container">
+			<h1>contact me</h1>
+			<form>
+  				Name:<br>
+  				<input type="text" name="" value=""><br>
+  				Email Address:<br>
+  				<input type="text" name="e" value=""><br><br>
+  				Phone Number<br>
+  				<input type="text" name="" value=""><br>
+  				Message:<br>
+  				<input type="text" name="" value=""><br>
+
+
+  				<input class="send" type="submit" value="Send">
+
+			</form>
+				
+
+		</div>
 	</div>
 
-
-
-
-
-
-
-
 </section>
-	
+
+<!-- fin seccion 4 -->
+<footer class="footer">
+	<div class="container">
+		<div> 
+			<h3>LOCATION</h3
+			<p>3481 Melrose Place 
+			Beverly Hills, CA 90210</p>
+		</div>
+		<div>
+			<h3>ROUND THE WEB</h3
+
+		</div>
+
+		<div>
+			<h3>ABOUT FREELANCER</h1>
+			<p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+
+		</div>
+					
+	</div>
+</footer>
+
+
+
 </body>
 </html>
