@@ -35,11 +35,11 @@ body {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 .container:after {
 	clear: both;
 }
 
+/*inicio nav*/
 .background1{
 	height: 108px; 
 	width: 100%;
@@ -59,17 +59,8 @@ body {
 
 }
 
-.background2{
-	height: 1000px;
-	width: 100%;
-	background-color: #18BC9C;
-	text-align: center;
-	color: white;
-	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
 
 
-}
 ul li a {
 	font-family: 'Montserrat', sans-serif;
 	color: #FFF;
@@ -97,9 +88,21 @@ li{
 	padding-left: 20px; 
 
 }
+/*fin del nav*/
+/*inicio seccion 1*/
+
+.background2{
+	height: 1000px;
+	width: 100%;
+	background-color: #18BC9C;
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
 
 .background2 .container div img {
 	padding-top: 6em;
+	margin-top: 66px;
 }
 .background2 .container h1 h3{
 	color: #FFF;
@@ -109,7 +112,55 @@ li{
 .background2 h1{
 	font-size: 76px;
 }
+.linea1{
+	width: 100px;
+	background-color: white;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+}
 
+.estrella1{
+	width: 50px;
+	font-size: 30px;
+	color:white;
+	display: inline-block;
+	padding-top: 
+
+}
+.linea2{
+	width: 100px;
+	background-color: white;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+/*fin seccion 1*/
+/*inicio seccion 2*/
+
+.linea3{
+	width: 100px;
+	background-color: black;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-bottom: 40px;
+}
+
+.estrella2{
+	width: 50px;
+	font-size: 30px;
+	color:black;
+	display: inline-block;
+}
+
+.linea4{
+	width: 100px;
+	background-color: black;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+}
 .imagenes .ilustraciones img{
 	height:auto; 
 	width:300px;
@@ -174,7 +225,8 @@ li{
 .ilustraciones{
 	text-align: center;
 }
-
+/*fin seccion 2*/
+/*inicio seccion 3*/
 .background3{
 	height: 600px;
 	width: 100%;
@@ -182,6 +234,32 @@ li{
 	text-align: center;
 	color: white;
 
+}
+.contenedor-star{
+	margin-bottom: -80px;
+}
+
+.linea5{
+	width: 100px;
+	background-color: white;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.estrella3{
+	width: 50px;
+	font-size: 30px;
+	color:white;
+	display: inline-block;
+}
+
+.linea6{
+	width: 100px;
+	background-color: white;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
 }
 
 table tr td{
@@ -233,6 +311,8 @@ td p{
 	cursor: pointer;
 	transition: background-color 0.8s ease-out;
 }
+/*fin seccion 3*/
+/*inicio seccion 4*/
 
 .contact-me h1{
 	font-family: 'Montserrat', sans-serif;
@@ -242,12 +322,45 @@ td p{
    	font-weight: bold;
 
 }
+.contenedor-star4{
+	position: relative;
+	left: 430px; 
+	top:10px;
+
+}
+
+.linea7{
+	width: 100px;
+	background-color: black;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+
+.estrella4{
+	width: 50px;
+	font-size: 30px;
+	color:black;
+	display: inline-block;
+	position: relative;
+	left: 10px;
+
+}
+
+.linea8{
+	width: 100px;
+	background-color: black;
+	height: 5px;
+	display: inline-block;
+	vertical-align: text-top;
+}
 
 form{
 	font-size: 1.5em; 
 	text-align: left;
 	font-family: 'Lato', sans-serif;
 	color: #898E99;
+	
 
 }
 
@@ -265,9 +378,15 @@ form input{
     text-align: left;
     outline: none;
     font-family: 'Lato', sans-serif;
+ }   
+
+.contact-me .container h1 form{
+	position: relative;
+    left:50px;
 }
 
 .send{
+	width: 88px;
 	background-color: #18BC9C;
 	font-size: 20px;
 	border: 2px solid #FFF;
@@ -276,7 +395,9 @@ form input{
 	text-align: center;
 	margin: 0 40%;
 	position: relative;
-	top: 83px;
+	top: -5px;
+	margin-left: -3px;
+
 }
 
 .send:hover{
@@ -285,14 +406,112 @@ form input{
 	cursor: pointer;
 	transition: background-color 0.8s ease-out;
 }
+/*fin seccion 4*/
+/*inicio footer*/
 
-
-.footer{
-	float: left;
+footer{
+    width: 100%;
+    height: 370px;
+    background-color: #303E52 ;
+    color: #FFF;
+    padding-top: 25px;
+    margin-bottom: 0;
 }
 
+/*h3 del footer */
+footer h3{
+    text-transform: uppercase;
+    font-size: 1.95em;
+}
 
-.footer h3{
-	font-size:   
-	font-weight: 700;
+/* <p> contenidos en el footer*/
+footer p{
+    padding-top: 30px;
+    font-size: 1.3em;
+    line-height: 32px;
+}
+
+/*direccion*/
+.direccion, .redes-sociales, .by{
+    float:left;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.direccion{
+    margin-left: 150px;
+    margin-right: -10px;
+}
+.direccion p{
+	font-family: 'Lato', sans-serif;
+}
+
+/*Redes Sociales*/
+
+.redes-sociales{
+    width: 500px;
+    margin-right: -20px;
+}
+
+/*iconos*/
+.redes-sociales a{
+    float: left;
+}
+
+.redes-sociales a i{
+    font-size: 20px;
+    color: #FFF;
+    padding-top: 15px;
+}
+
+.redes-sociales a:hover{
+    background-color: #FFF;
+}
+
+.redes-sociales a i:hover{
+    color: #12BD9C ;
+}
+
+/*Borde circular de los iconos*/
+#border1, #border2, #border3, #border4, #border5{
+    margin-top: 30px;
+    margin-right: 9px;
+    border: 2px solid #FFF;
+    height: 50px;
+    width: 50px;
+    display: table-cell;
+    text-align: center;
+    font-size:12px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+/*margen primer icono (facebook)*/
+
+#border1{
+    margin-left: 98px;
+}
+
+/*by Start Bootstrap*/
+
+.by{
+    width: 400px;
+}
+
+.by a{
+    text-decoration: none;
+    color: #12BD9C ;
+}
+.by p{
+	font-family: 'Lato', sans-serif;
+}
+
+.copyright{
+    float: left;
+    margin-left: 630px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    margin-left: 457px;
 }

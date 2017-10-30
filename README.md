@@ -1,80 +1,23 @@
-# Freelancer
+#Reto de código Freelancer
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+En este ejercicio, simulé la página web Freelancer, donde utilicé el HTML semántico y las etiquetas para reforzar la estructura de la página y el CSS para darte estilo y diseño a la misma.
 
-***
+##En su estructura utilicé:
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+*En el HEAD para linkear la tipografía Montserrat y Lato, también creé un link para enlazar los iconos de Font awesome, y linkie el CSS con el HTML.
 
-## Flujo de trabajo
+*En la parte de la cabezera de mi proyecto utilicé un nav .background1 con un div .container adentro que contiene el titulo <h1>Start Boostrap y una lista <ul> <li> con :hover  para visualizar el bloque principal de los enlaces de navegación en mi página. 
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+*En la sección 1 apliqué un div .background2 con el color verde agua para el fondo, un div para la imagen, para el texto, para el ícono de estrella y para la linea, centrando mis elementos en la página web, por medio del CSS.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+*En la segunda sección agregue el subtitulo <h3> entregandole color #000 (black) familia tipográfica y tamaño a la fuente, también trabajé con los div correspondientes al ícono de estrella y para las 6 ilustraciónes requeridas en este reto de código utilice un div para las primeras 3 ilustraciones y otro para las últimas tres ilustraciones . En la hoja de estilos CSS fuí trabajando simultaneamente para darle tamaño, y posición a cada uno de los elementos. 
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+*En la tercera sección fui trabajando con un fondo .background3 de color #18BC9C; (verde agua) creé un <h3> .about para el subtitulo
+un div contenedor .contenedor-star para el ícono de estrella y trabajé con un div que adentro contiene una tabla donde posicioné mis dos columnas de texto con la etiqueta <table>, <tr> y <td>. y al finalizar esta sección trabajé con un div que adentro contiene un boton <button> con un tiempo determinado de transición.
 
-## Objetivo
+*En la cuarta sección creé un formulario con la etiqueta <form> e <input> la cual me permite generar controles interactivos para formularios basados en la web (en este caso no tiene utilidad, ya que es sólo un prototipo). Y además utilicé un boton especifico para enviar, trabajando simultaneamente con la hoja de estilos CSS, manejando el color, los tamaños y las fuentes tipográficas de esta sección.
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+*Y para finalizar, en el footer utilicé un background #303E52, donde agregué 4 div, uno para cada parte del footer .direccion (para la dirección de la empresa), .redes-sociales (para los íconos), .by(para la descripción de la página) y .copyright(para mencionar el cierre del footer). 
+Quedando realizado el prototipo de la página web freelancer.
 
-![Freelancer Website](docs/fullpage.png)
-
-## Consideraciones
-
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
-
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
-
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
-
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
-
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
-
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
-
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
-
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
-
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+Valentina Galleani.
